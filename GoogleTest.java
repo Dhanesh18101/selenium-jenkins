@@ -16,8 +16,10 @@ public class GoogleTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
 
-        // SNAP chromium fix (IMPORTANT)
-        options.setBinary("/snap/bin/chromium");
+        // IMPORTANT: DO NOT set snap path
+        options.setBinary("/usr/bin/chromium");
+
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
         WebDriver driver = new ChromeDriver(options);
 
