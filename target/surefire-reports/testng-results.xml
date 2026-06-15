@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-15T13:51:33 UTC" name="Surefire suite" finished-at="2026-06-15T13:52:00 UTC" duration-ms="27034">
+  <suite started-at="2026-06-15T14:36:25 UTC" name="com.test.GoogleTest" finished-at="2026-06-15T14:36:34 UTC" duration-ms="9294">
     <groups>
     </groups>
-    <test started-at="2026-06-15T13:51:33 UTC" name="Surefire test" finished-at="2026-06-15T13:52:00 UTC" duration-ms="27034">
+    <test started-at="2026-06-15T14:36:25 UTC" name="Command line test" finished-at="2026-06-15T14:36:34 UTC" duration-ms="9294">
       <class name="com.test.GoogleTest">
-        <test-method signature="openGoogle()[pri:0, instance:com.test.GoogleTest@568bf312]" started-at="2026-06-15T13:51:33 UTC" name="openGoogle" finished-at="2026-06-15T13:52:00 UTC" duration-ms="26971" status="PASS">
+        <test-method signature="openGoogle()[pri:0, instance:com.test.GoogleTest@3f200884]" started-at="2026-06-15T14:36:25 UTC" name="openGoogle" finished-at="2026-06-15T14:36:34 UTC" duration-ms="9250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGoogle -->
       </class> <!-- com.test.GoogleTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.test.GoogleTest -->
 </testng-results>
