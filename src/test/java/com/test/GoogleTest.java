@@ -8,12 +8,13 @@ public class GoogleTest {
 
     @Test
     public void openGoogle() {
+
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
 
-        System.out.println("Title: " + driver.getTitle());
+        System.out.println("Google opened successfully");
 
         driver.quit();
     }
